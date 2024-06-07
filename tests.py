@@ -43,3 +43,4 @@ class TestBooksCollector:
         assert 'King in yellow' in collection_2books.get_list_of_favorites_books()
         collection_2books.delete_book_from_favorites('King in yellow')
         assert not 'King in yellow' in collection_2books.get_list_of_favorites_books()
+
